@@ -1,0 +1,182 @@
+@media #{$phoneLandscape} {
+    $m: phoneLandscape;
+
+    @import '../mobile';
+
+    .wrapper {
+        padding: px(54, $m) 0 0;
+
+        .satelite {
+            max-width: px(1104, $m);
+            margin: 0 px(50, $m);
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            order: -10;
+
+            .title {
+                margin-top: px(62, $m);
+                margin-left: px(16, $m);
+                order: -10;
+            }
+
+            .divider {
+                width: 3px;
+                height: px(60, $m);
+                margin: px(58, $m) px(184, $m) 0 px(74, $m);
+                order: -9;
+            }
+
+            .icon {
+                margin-top: 0;
+                margin-bottom: px(22, $m);
+                order: -8;
+            }
+
+            .button {
+                margin: px(44, $m) 0 0 px(42, $m);
+                order: -7;
+            }
+
+            .parameters {
+                display: flex;
+                width: px(510, $m);
+                margin: px(40, $m) 0 px(60, $m) px(98, $m);
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .line {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    flex-direction: column;
+                }
+
+                .name {
+                    margin-right: px(26, $m);
+                    margin-bottom: px(6, $m);
+                    padding: 0;
+                    text-align: left;
+                }
+
+                .value {
+                    padding-bottom: px(42, $m);
+                }
+
+                .line1 {
+                    order: -5;
+                };
+
+                .line4 {
+                    order: -4;
+                }
+
+                .line5 {
+                    order: -3;
+                }
+
+                .line2 {
+                    margin-right: px(4, $m);
+                    order: -2;
+                }
+            }
+
+            .mansatelite {
+                display: block;
+                position: relative;
+                width: px(388, $m);
+                margin: px(-202, $m) 0 0 px(40, $m);
+                color: $color4;
+                font-family: 'PT Sans-italic';
+                font-size: px(24, $m);
+                font-style: italic;
+                line-height: px(30, $m);
+                text-align: center;
+            }
+
+            .arrow {
+                position: relative;
+                top: px(-34, $m);
+                left: px(144, $m);
+                width: px(64, $m);
+                height: px(14, $m);
+                transform: rotate(270deg);
+            }
+        }
+
+        .internet {
+            max-width: px(1104, $m);
+            margin: 0 px(50, $m);
+            padding-top: px(76, $m);
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+            >.icon {
+                margin: 0 0 px(48, $m) px(150, $m);
+                padding: 0;
+                order: -10;
+            }
+
+            .divider {
+                width: 3px;
+                height: px(60, $m);
+                margin: px(54, $m) px(76, $m) 0 px(78, $m);
+                order: -9;
+            }
+
+            >.title {
+                margin: px(58, $m) 0 0;
+            }
+
+            .title-second {
+                margin: px(30, $m) 0 0 px(10, $m);
+                text-align: right;
+            }
+
+            .downoloads {
+                margin: px(6, $m) 0 px(62, $m) px(82, $m);
+            }
+
+            .button {
+                margin: px(20, $m) 0 px(106, $m) px(84, $m);
+            }
+        }
+
+        .tvcable {
+            max-width: px(1104, $m);
+            margin: 0 px(50, $m) px(10, $m);
+            padding-top: 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+            .title {
+                margin: px(118, $m) 0 0 px(78, $m);
+                order: -10;
+            }
+
+            .divider {
+                width: 3px;
+                height: px(60, $m);
+                margin: px(110, $m) px(198, $m) 0 px(132, $m);
+                order: -9;
+            }
+
+            .icon {
+                margin: px(54, $m) 0 px(52, $m);
+            }
+
+            .title-second {
+                text-align: left;
+                order: 2;
+            }
+
+            .button {
+                margin: px(60, $m) px(98, $m) px(150, $m) px(42, $m);
+            }
+        }
+    }
+
+}

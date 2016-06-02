@@ -1,0 +1,303 @@
+& {
+    font-family: 'PT Sans';
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        padding: px(58, $m) px(40, $m) 0;
+        background-color: $color1;
+        flex-direction: column;
+        justify-content: center;
+
+        .internet {
+            display: flex;
+            width: 100%;
+            background: url('../images/info/divider.svg') bottom repeat-x;
+            background-size: 3px 3px;
+            flex-direction: column;
+            align-items: center;
+
+            >.icon {
+                width: px(140, $m);
+                height: px(160, $m);
+                margin-bottom: px(50, $m);
+                margin-left: px(48, $m);
+            }
+
+            >.title {
+                color: $color2;
+                font-size: px(44, $m);
+                font-weight: 700;
+            }
+
+            .divider {
+                width: px(60, $m);
+                height: 3px;
+                margin: px(51, $m) 0 px(48, $m);
+                border-radius: 1px;
+                background-color: $color3;
+            }
+
+            .title-second {
+                width: px(360, $m);
+                color: $color2;
+                font-size: px(30, $m);
+                font-weight: 100;
+                line-height: px(36, $m);
+                text-align: center;
+            }
+
+            .title-desktop {
+                display: none;
+            }
+
+            .downoloads {
+                display: flex;
+                position: relative;
+                width: px(520, $m);
+                margin: px(48, $m) 0  px(56, $m);
+                flex-direction: row;
+                justify-content: space-between;
+
+                .title {
+                    width: px(180, $m);
+                    margin-top: px(30, $m);
+                    color: $color4;
+                    font-size: px(30, $m);
+                    font-weight: 700;
+                    text-align: center;
+                }
+
+                .icon {
+                    display: flex;
+                    width: px(120, $m);
+                    height: px(116, $m);
+                    margin-top: px(4, $m);
+                    border-radius: 5px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .icon-playstore {
+                    border: 1px solid $color5;
+                }
+
+                .icon-appstore {
+                    border: 1px solid $color4;
+                }
+
+                .img-playstore {
+                    width: px(80, $m);
+                    height: px(90, $m);
+                }
+
+                .img-appstore {
+                    width: px(70, $m);
+                    height: px(80, $m);
+                }
+
+                .arrow {
+                    position: absolute;
+                    width: px(106, $m);
+                    height: px(16, $m);
+                }
+
+                .arrow-bottom {
+                    top: px(108, $m);
+                    left: px(126, $m);
+                    transform: rotate(180deg);
+                }
+
+                .arrow-top {
+                    top: 0;
+                    right: px(124, $m);
+                }
+            }
+
+            .button {
+                display: flex;
+                width: px(380, $m);
+                height: px(100, $m);
+                margin: px(52, $m) 0  px(86, $m);
+                padding: 0 0 0 px(66, $m);
+                border: 1px solid $color6;
+                border-radius: 5px;
+                background: url('../images/info/videoPlayIcon.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color6;
+                font-size: px(30, $m);
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .button:hover {
+                background: $color6 url('../images/info/videoPlayIcon_hover.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color7;
+            }
+        }
+
+        .satelite {
+            display: flex;
+            width: 100%;
+            background: url('../images/info/divider.svg') bottom repeat-x;
+            background-size: 3px 3px;
+            flex-direction: column;
+            align-items: center;
+
+            >.icon {
+                width: px(120, $m);
+                height: px(160, $m);
+                margin: px(76, $m) px(38, $m) px(56, $m) 0;
+            }
+
+            >.title {
+                color: $color2;
+                font-size: px(44, $m);
+                font-weight: 700;
+            }
+
+            .divider {
+                width: px(60, $m);
+                height: 3px;
+                margin: px(51, $m)  px(50, $m);
+                border-radius: 1px;
+                background-color: $color3;
+            }
+
+            .parameters {
+                margin-right: px(22, $m);
+                color: $color4;
+                font-size: px(30, $m);
+
+                .line {
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+
+                .line1 {
+                    margin-left: px(128, $m);
+                }
+
+                .line2 {
+                    margin-left: px(96, $m);
+                }
+
+                .line4 {
+                    margin-left: px(32, $m);
+                }
+
+                .line5 {
+                    margin-left: px(-12, $m);
+                }
+
+                .name {
+                    margin-bottom: px(30, $m);
+                    padding-right: px(20, $m);
+                    font-weight: 700;
+                    text-align: right;
+                }
+
+                .value {
+                    padding-bottom: px(22, $m);
+                }
+
+                .value-desktop {
+                    display: none;
+                }
+            }
+
+            .button {
+                display: flex;
+                width: px(380, $m);
+                height: px(100, $m);
+                margin: px(24, $m) 0  px(86, $m);
+                padding: 0 0 0 px(66, $m);
+                border: 1px solid $color6;
+                border-radius: 5px;
+                background: url('../images/info/videoPlayIcon.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color6;
+                font-size: px(30, $m);
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .button:hover {
+                background: $color6 url('../images/info/videoPlayIcon_hover.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color7;
+            }
+
+            .mansatelite {
+                display: none;
+            }
+        }
+
+        .tvcable {
+            display: flex;
+            width: 100%;
+            margin-bottom: px(30, $m);
+            background: url('../images/info/divider.svg') bottom repeat-x;
+            background-size: 3px 3px;
+            flex-direction: column;
+            align-items: center;
+
+            >.icon {
+                width: px(130, $m);
+                height: px(160, $m);
+                margin-top: px(82, $m);
+                margin-bottom: px(48, $m);
+            }
+
+            >.title {
+                color: $color2;
+                font-size: px(44, $m);
+                font-weight: 700;
+            }
+
+            .divider {
+                width: px(60, $m);
+                height: 3px;
+                margin: px(52, $m) 0 px(50, $m);
+                border-radius: 1px;
+                background-color: $color3;
+            }
+
+            .title-second {
+                width: px(506, $m);
+                margin-bottom: px(24, $m);
+                color: $color2;
+                font-size: px(30, $m);
+                font-weight: 100;
+                line-height: px(36, $m);
+                text-align: center;
+            }
+
+            .button {
+                display: flex;
+                width: px(380, $m);
+                height: px(100, $m);
+                margin: px(24, $m) 0  px(86, $m);
+                padding: 0 0 0 px(66, $m);
+                border: 1px solid $color6;
+                border-radius: 5px;
+                background: url('../images/info/videoPlayIcon.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color6;
+                font-size: px(30, $m);
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .button:hover {
+                background: $color6 url('../images/info/videoPlayIcon_hover.svg') px(24, $m) center no-repeat;
+                background-size: px(40, $m) px(40, $m);
+                color: $color7;
+            }
+        }
+    }
+}

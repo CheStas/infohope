@@ -1,0 +1,210 @@
+@media #{$tabletPortrait} {
+    $m: tabletPortrait;
+
+    @import '../mobile';
+
+    .wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .satelite {
+            width: px(720, $m);
+            background: none;
+            order: -3;
+
+            .icon {
+                width: px(140, $m);
+                height: px(170, $m);
+                margin: px(40, $m) px(66, $m) px(106, $m) 0;
+            }
+
+            .title {
+                margin-right: px(16, $m);
+                font-size: px(50, $m);
+            }
+
+            .divider {
+                margin: px(60, $m) 0 px(72, $m);
+            }
+
+            .parameters {
+                font-size: px(34, $m);
+
+                .line1 {
+                    margin-left: px(132, $m);
+                }
+
+                .line2 {
+                    margin-left: px(100, $m);
+                }
+
+                .line3 {
+                    margin-left: px(-12, $m);
+                }
+
+                .line4 {
+                    margin-left: px(26, $m);
+                }
+
+                .line5 {
+                    margin-left: px(-22, $m);
+                }
+
+                .name {
+                    margin-bottom: px(56, $m);
+                    padding-right: px(34, $m);
+                }
+            }
+
+            .button {
+                width: px(462, $m);
+                height: px(110, $m);
+                margin: px(42, $m) px(18, $m) 0 0;
+                background-position: px(40, $m) center;
+                font-size: px(34, $m);
+            }
+        }
+
+        .internet {
+            width: px(720, $m);
+            background: none;
+
+            >.icon {
+                width: px(160, $m);
+                height: px(170, $m);
+                margin-top: px(48, $m);
+                margin-bottom: px(96, $m);
+            }
+
+            >.title {
+                margin-right: px(8, $m);
+                font-size: px(50, $m);
+            }
+
+            .divider {
+                margin: px(64, $m) 0 px(66, $m);
+            }
+
+            .title-nodesktop {
+                display: none;
+            }
+
+            .title-desktop {
+                display: inline-block;
+                width: px(580, $m);
+                margin-right: px(20, $m);
+                color: $color2;
+                font-size: px(34, $m);
+                font-weight: 100;
+                line-height: px(42, $m);
+                text-align: center;
+            }
+
+            .downoloads {
+                width: px(570, $m);
+                margin: px(64, $m) px(18, $m) px(66, $m) 0;
+
+                .icon {
+                    width: px(148, $m);
+                    height: px(148, $m);
+                }
+
+                .img-playstore {
+                    width: px(100, $m);
+                    height: px(100, $m);
+                }
+
+                .img-appstore {
+                    width: px(100, $m);
+                    height: px(100, $m);
+                }
+
+                .title {
+                    margin-top: px(40, $m);
+                    margin-right: px(18, $m);
+                    font-size: px(34, $m);
+                }
+
+                .arrow-bottom {
+                    top: px(132, $m);
+                    left: px(154, $m);
+                    height: px(18, $m);
+                }
+
+                .arrow-top {
+                    top: px(4, $m);
+                    right: px(154, $m);
+                }
+            }
+
+            .title-second {
+                width: px(530, $m);
+                margin-right: px(6, $m);
+                font-size: px(34, $m);
+            }
+
+            .button {
+                width: px(462, $m);
+                height: px(110, $m);
+                margin-top: px(94, $m);
+                padding-left: px(56, $m);
+                background-position: px(42, $m) center;
+                font-size: px(34, $m);
+            }
+        }
+
+        .tvcable {
+            margin-bottom: px(80, $m);
+            background: none;
+
+            .icon {
+                position: relative;
+                width: px(160, $m);
+                height: px(190, $m);
+                margin-top: px(8, $m);
+                margin-bottom: px(84, $m);
+
+            }
+
+            .icon::before {
+                display: block;
+                position: absolute;
+                top: px(122, $m);
+                right: px(204, $m);
+                width: px(540, $m);
+                height: 3px;
+                background: url('../images/info/divider.svg') repeat-x;
+                content: '';
+            }
+
+            .icon::after {
+                display: block;
+                position: absolute;
+                top: px(122, $m);
+                left: px(204, $m);
+                width: px(540, $m);
+                height: 3px;
+                background: url('../images/info/divider.svg') repeat-x;
+                content: '';
+            }
+
+            .title {
+                font-size: px(52, $m);
+            }
+
+            .divider {
+                margin: px(68, $m)0 px(72, $m);
+            }
+
+            .title-second {
+                width: px(1070, $m);
+                font-size: px(34, $m);
+                line-height: px(42, $m);
+            }
+
+            .button {
+                display: none;
+            }
+        }
+    }
+}
