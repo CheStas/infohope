@@ -127,16 +127,20 @@
             }
 
             >.title {
-                margin: px(58, $m) 0 0;
+                margin: px(60, $m) 0 0;
             }
 
             .title-second {
-                margin: px(30, $m) 0 0 px(10, $m);
+                margin: px(31, $m) 0 0 px(10, $m);
                 text-align: right;
             }
 
             .downoloads {
                 margin: px(6, $m) 0 px(62, $m) px(82, $m);
+
+                .icon {
+                    height: px(118, $m);
+                }
             }
 
             .button {

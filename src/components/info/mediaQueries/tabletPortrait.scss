@@ -109,14 +109,20 @@
                     height: px(148, $m);
                 }
 
-                .img-playstore {
-                    width: px(100, $m);
-                    height: px(100, $m);
+                .icon-playstore {
+                    background-size: px(100, $m) px(100, $m);
                 }
 
-                .img-appstore {
-                    width: px(100, $m);
-                    height: px(100, $m);
+                .icon-playstore:hover {
+                    background-size: px(100, $m) px(100, $m);
+                }
+
+                .icon-appstore {
+                    background-size: px(100, $m) px(100, $m);
+                }
+
+                .icon-appstore:hover {
+                    background-size:  px(100, $m) px(100, $m);
                 }
 
                 .title {
